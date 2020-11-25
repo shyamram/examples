@@ -1,0 +1,25 @@
+❯ ./create.cert.sh
+Generating RSA private key, 4096 bit long modulus
+...............................................................................++
+......................................................++
+e is 65537 (0x10001)
+You are about to be asked to enter information that will be incorporated
+into your certificate request.
+What you are about to enter is what is called a Distinguished Name or a DN.
+There are quite a few fields but you can leave some blank
+For some fields there will be a default value,
+If you enter '.', the field will be left blank.
+-----
+Country Name (2 letter code) []:US
+State or Province Name (full name) []:Texas
+Locality Name (eg, city) []:
+Organization Name (eg, company) []:SRETech
+Organizational Unit Name (eg, section) []:SRE
+Common Name (eg, fully qualified host name) []:*
+Email Address []:
+
+❯ ls -lat
+total 24
+-rw-r--r--  1 sramamoorthy  staff  1814 24 Nov 20:22 my-certificate.pem
+-rw-r--r--  1 sramamoorthy  staff  3243 24 Nov 20:20 my-private-key.pem
+-rwxr-xr-x  1 sramamoorthy  staff   189 24 Nov 20:19 create.cert.sh
